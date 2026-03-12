@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Rebuilding — Tech Event</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">
+            CIENCIA <span class="accent2">2K26</span>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-eyebrow">Technical Event <span class="accent2">2026</span></div>
+        <h1 class="hero-title">
+            Website<br>
+            <span class="accent">Re</span><span class="accent2">build</span><br>
+            Challenge
+        </h1>
+        <p class="hero-sub">
+            Recreate and redesign existing popular websites with superior UI/UX, improved architecture, and enhanced
+            functionality. Push the boundaries of modern web development.
+        </p>
+        <div class="hero-cta">
+            <a href="https://ciencia26.vercel.app/event/website-rebuilding" class="btn btn-primary">Register Now</a>
+            <a href="#judging" class="btn btn-outline">View Criteria</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-num">2h</span>
+                <span class="stat-label">Duration</span>
+            </div>
+            <div class="stat">
+                <span class="stat-num">1</span>
+                <span class="stat-label">Team Size</span>
+            </div>
+        </div>
+
+        <!-- rotating badge -->
+        <div class="hero-badge" aria-hidden="true">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <path id="circle" d="M 100,100 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
+                </defs>
+                <text fill="#00e5ff" font-size="13" font-family="DM Mono, monospace" letter-spacing="5">
+                    <textPath href="#circle">REBUILD • REDESIGN • REIMAGINE •&nbsp;</textPath>
+                </text>
+            </svg>
+            <span class="badge-icon">🌐</span>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="section-header">
+            <div>
+                <div class="section-label">About the Event</div>
+                <h2 class="section-title">What is<br>Website Rebuilding?</h2>
+            </div>
+        </div>
+        <div class="about-grid reveal">
+            <div class="about-card">
+                <span class="about-card-num">01</span>
+                <h3>The Challenge</h3>
+                <p>Participants receive an existing popular website or webpage as a reference. Your mission: completely
+                    rebuild it with better UI, improved structure, and enhanced functionality that surpasses the
+                    original.</p>
+            </div>
+            <div class="about-card">
+                <span class="about-card-num">02</span>
+                <h3>Your Freedom</h3>
+                <p>You are not restricted to copying the design. Think critically about UX flaws in the original,
+                    reimagine the layout, improve accessibility, and modernize the visual language entirely.</p>
+            </div>
+            <div class="about-card">
+                <span class="about-card-num">03</span>
+                <h3>Technologies</h3>
+                <p>HTML, CSS, JavaScript, React, Vue, Angular, Next.js, Tailwind — use any modern web technology stack
+                    you're comfortable with. The tools don't matter; the output does.</p>
+            </div>
+            <div class="about-card">
+                <span class="about-card-num">04</span>
+                <h3>The Outcome</h3>
+                <p>Walk away with a portfolio-worthy project, hands-on experience with real-world redesign challenges,
+                    peer recognition, and the satisfaction of shipping something genuinely better.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHOOSE YOUR WEBSITE -->
+    <section class="req-section" id="choose-website">
+        <div class="section-header reveal">
+            <div>
+                <div class="section-label">Your Challenge</div>
+                <h2 class="section-title">Choose Your<br>Website</h2>
+            </div>
+        </div>
+        <div class="req-grid reveal">
+            <!-- Card 1 -->
+            <div class="req-item website-card" data-code="4821"
+                data-url="https://github.com/bhargavnama/college_landing_page" data-name="College Website">
+                <h4>College Website</h4>
+                <p>A university landing page with departments, events, announcements and an admission section. Rebuild
+                    it with better structure, navigation and visual hierarchy.</p>
+                <button class="btn btn-outline btn-access">Get Access</button>
+            </div>
+            <!-- Card 2 -->
+            <div class="req-item website-card" data-code="7364"
+                data-url="https://github.com/bhargavnama/cafe_landing_page" data-name="Café Website">
+                <h4>Cafe Website</h4>
+                <p>A cozy café site with a menu, gallery, opening hours and a reservation form. Redesign it to feel
+                    warm, inviting and modern with great typography.</p>
+                <button class="btn btn-outline btn-access">Get Access</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="req-item website-card" data-code="6140" data-url="https://github.com/bhargavnama/food_rush"
+                data-name="Netflix Fan Page">
+                <h4>Netflix Landing Page</h4>
+                <p>A streaming platform fan page with trending shows, movie cards, genre filters and a subscription plan
+                    section. Make it dark, cinematic and visually rich.</p>
+                <button class="btn btn-outline btn-access">Get Access</button>
+            </div>
+            <!-- Card 4 -->
+            <div class="req-item website-card" data-code="3895" data-url="https://github.com/bhargavnama/food_rush"
+                data-name="Travelling Site">
+                <h4>Travelling Website</h4>
+                <p>A travel agency homepage with destinations, tour packages, testimonials and a booking form. Redesign
+                    it to feel adventurous, vibrant and easy to navigate.</p>
+                <button class="btn btn-outline btn-access">Get Access</button>
+            </div>
+            <!-- Card 5 -->
+            <div class="req-item website-card" data-code="2957" data-url="https://github.com/bhargavnama/food_rush"
+                data-name="Food Delivery App">
+                <h4>Food Delivery Website</h4>
+                <p>A Zomato-like food delivery app landing page with restaurant categories, trending recipes, reviews,
+                    and an ordering system. Rebuild it to look mouth-watering, accessible, and vibrant.</p>
+                <button class="btn btn-outline btn-access">Get Access</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECHNICAL RULES -->
+    <section class="rules-section" id="rules">
+        <div class="section-header reveal">
+            <div>
+                <div class="section-label">Technical Rules</div>
+                <h2 class="section-title">The Rules of<br>the Game</h2>
+            </div>
+        </div>
+        <div class="rules-grid reveal">
+            <!-- Card 1 -->
+            <div class="rule-card">
+                <h3 style="color: var(--accent2);">WHAT YOU MUST NOT DO</h3>
+                <ul class="rule-list red-rules">
+                    <li><span class="rule-icon">✗</span> No backend, server, or database of any kind</li>
+                    <li><span class="rule-icon">✗</span> No external API calls</li>
+                    <li><span class="rule-icon">✗</span> Do not remove any existing sections from the page</li>
+                    <li><span class="rule-icon">✗</span> No backend or form submission functionality</li>
+                </ul>
+            </div>
+            <!-- Card 2 -->
+            <div class="rule-card">
+                <h3 style="color: var(--accent);">WHAT YOU CAN IMPROVE</h3>
+                <ul class="rule-list green-rules">
+                    <li><span class="rule-icon">✓</span> Add smooth animations or hover effects</li>
+                    <li><span class="rule-icon">✓</span> Make the page mobile responsive</li>
+                    <li><span class="rule-icon">✓</span> Improve content and copywriting within each section</li>
+                    <li><span class="rule-icon">✓</span> Add a working countdown timer using JavaScript</li>
+                    <li><span class="rule-icon">✓</span> Add smooth scroll navigation</li>
+                    <li><span class="rule-icon">✓</span> Improve the registration form appearance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCESS MODAL -->
+    <div id="access-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modal-title" style="font-family: 'Syne', sans-serif; margin-bottom: 12px; color: var(--accent);">
+                Website Name</h3>
+            <p style="font-size: 0.8rem; color: var(--muted); margin-bottom: 24px;">Enter the access code to unlock this
+                website's GitHub URL.</p>
+            <div class="input-group">
+                <input type="text" inputmode="numeric" pattern="[0-9]*" id="access-code" placeholder="Enter Access Code"
+                    maxlength="4"
+                    oninput="this.value = this.value.replace(/[^0-9]/g, ''); if(this.value.length > 4) this.value = this.value.slice(0, 4);">
+                <button id="submit-code" class="btn btn-primary"
+                    style="padding: 10px 20px; clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));">Submit</button>
+            </div>
+            <p id="error-msg" class="error-msg">✗ Incorrect access code. Please try again.</p>
+            <div id="success-box" class="success-box">
+                <p class="success-msg">✓ Access granted! Here is your starter file link.</p>
+                <div class="url-group">
+                    <input type="text" id="github-url" readonly>
+                    <button id="copy-url" class="btn btn-outline"
+                        style="padding: 8px 16px; font-size: 0.7rem; clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));">Copy
+                        URL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TECH STACK -->
+    <section>
+        <div class="section-header reveal">
+            <div>
+                <div class="section-label">Allowed Technologies</div>
+                <h2 class="section-title">Your Stack,<br>Your Choice</h2>
+            </div>
+        </div>
+        <div class="tech-grid reveal">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript (ES6+)</span>
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Vue.js</span>
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">Next.js</span>
+            <span class="tech-tag">Tailwind CSS</span>
+            <span class="tech-tag">Bootstrap</span>
+            <span class="tech-tag">SCSS / SASS</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Figma (prototyping)</span>
+            <span class="tech-tag">Vite / Webpack</span>
+            <span class="tech-tag">Framer Motion</span>
+            <span class="tech-tag">GSAP</span>
+            <span class="tech-tag">Any CSS Framework</span>
+        </div>
+    </section>
+
+    <!-- JUDGING -->
+    <section id="judging" style="background: var(--surface);">
+        <div class="section-header reveal">
+            <div>
+                <div class="section-label">Evaluation Criteria</div>
+                <h2 class="section-title">How You'll<br>Be Judged</h2>
+            </div>
+            <p style="font-size:0.78rem; color: var(--muted); max-width: 280px; text-align: right;">Each criterion is
+                scored independently. Final score is a weighted total across all four dimensions.</p>
+        </div>
+        <div class="judging-list reveal">
+            <div class="judge-row">
+                <div class="judge-num">01</div>
+                <div class="judge-content">
+                    <h3>Design Improvement</h3>
+                    <p>Visual hierarchy, typography, color usage, spacing, and overall aesthetic improvement over the
+                        original site.</p>
+                </div>
+                <div class="judge-bar-wrap">
+                    <div class="judge-bar" style="width:90%"></div>
+                </div>
+                <div class="judge-weight">30%</div>
+            </div>
+            <div class="judge-row">
+                <div class="judge-num">02</div>
+                <div class="judge-content">
+                    <h3>Responsiveness</h3>
+                    <p>Mobile-first approach, fluid layouts, adaptive components, and cross-browser compatibility of the
+                        rebuilt site.</p>
+                </div>
+                <div class="judge-bar-wrap">
+                    <div class="judge-bar" style="width:75%"></div>
+                </div>
+                <div class="judge-weight">25%</div>
+            </div>
+            <div class="judge-row">
+                <div class="judge-num">03</div>
+                <div class="judge-content">
+                    <h3>Functionality</h3>
+                    <p>Working interactive elements, navigation, forms, animations, and feature parity or enhancement
+                        over the original.</p>
+                </div>
+                <div class="judge-bar-wrap">
+                    <div class="judge-bar" style="width:75%"></div>
+                </div>
+                <div class="judge-weight">25%</div>
+            </div>
+            <div class="judge-row">
+                <div class="judge-num">04</div>
+                <div class="judge-content">
+                    <h3>Creativity</h3>
+                    <p>Originality of approach, innovative UX patterns, unique visual identity, and going beyond a
+                        simple clone.</p>
+                </div>
+                <div class="judge-bar-wrap">
+                    <div class="judge-bar" style="width:60%"></div>
+                </div>
+                <div class="judge-weight">20%</div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <div class="footer-logo">
+                CIENCIA <span class="accent2">2K26</span>
+            </div>
+            <p style="font-size:0.7rem; color: var(--muted); margin-top: 4px;">Website Rebuilding — Technical Event</p>
+        </div>
+        <div style="min-width: 200px;">
+            <div class="section-label" style="margin-bottom: 16px;">Coordinators</div>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+                <li style="display: flex; justify-content: space-between; font-size: 0.8rem;">
+                    <span style="color: #fff;">Varun Katakam</span>
+                    <span style="color: var(--muted);">6303409082</span>
+                </li>
+                <li style="display: flex; justify-content: space-between; font-size: 0.8rem;">
+                    <span style="color: #fff;">Bhargav Nama</span>
+                    <span style="color: var(--muted);">7671076717</span>
+                </li>
+                <li style="display: flex; justify-content: space-between; font-size: 0.8rem;">
+                    <span style="color: #fff;">Sumanth Enjamoori</span>
+                    <span style="color: var(--muted); margin-left: 0.35rem;">9949441512</span>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        // Cursor
+        const cursor = document.getElementById('cursor');
+        const ring = document.getElementById('cursorRing');
+        document.addEventListener('mousemove', e => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+            ring.style.left = e.clientX + 'px';
+            ring.style.top = e.clientY + 'px';
+        });
+        document.querySelectorAll('a, button, .req-item, .about-card, .judge-row, .tech-tag, .prize-card').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.style.width = '18px'; cursor.style.height = '18px';
+                cursor.style.background = '#ff4d6d';
+            });
+            el.addEventListener('mouseleave', () => {
+                cursor.style.width = '10px'; cursor.style.height = '10px';
+                cursor.style.background = 'var(--accent)';
+            });
+        });
+
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    entry.target.style.transitionDelay = (i % 3) * 0.08 + 's';
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        reveals.forEach(el => observer.observe(el));
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Modal Logic
+        const modal = document.getElementById('access-modal');
+        const closeBtn = document.querySelector('.close-btn');
+        const submitBtn = document.getElementById('submit-code');
+        const accessInput = document.getElementById('access-code');
+        const errorMsg = document.getElementById('error-msg');
+        const successBox = document.getElementById('success-box');
+        const githubUrlInput = document.getElementById('github-url');
+        const copyUrlBtn = document.getElementById('copy-url');
+        const modalTitle = document.getElementById('modal-title');
+
+        let currentWebsiteData = null;
+
+        document.querySelectorAll('.btn-access').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const card = e.target.closest('.website-card');
+                if (card) {
+                    currentWebsiteData = {
+                        name: card.getAttribute('data-name'),
+                        code: card.getAttribute('data-code'),
+                        url: card.getAttribute('data-url')
+                    };
+
+                    if (modalTitle) modalTitle.textContent = currentWebsiteData.name;
+                    if (accessInput) accessInput.value = '';
+                    if (errorMsg) errorMsg.style.display = 'none';
+                    if (successBox) successBox.style.display = 'none';
+                    if (modal) modal.style.display = 'flex';
+                }
+            });
+        });
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', () => {
+                if (modal) modal.style.display = 'none';
+            });
+        }
+
+        window.addEventListener('click', (e) => {
+            if (e.target == modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        if (submitBtn) {
+            submitBtn.addEventListener('click', () => {
+                if (accessInput && currentWebsiteData && accessInput.value === currentWebsiteData.code) {
+                    if (errorMsg) errorMsg.style.display = 'none';
+                    if (githubUrlInput) githubUrlInput.value = currentWebsiteData.url;
+                    if (successBox) successBox.style.display = 'flex';
+                } else {
+                    if (errorMsg) errorMsg.style.display = 'block';
+                    if (accessInput) accessInput.value = '';
+                    if (successBox) successBox.style.display = 'none';
+                }
+            });
+        }
+
+        if (copyUrlBtn) {
+            copyUrlBtn.addEventListener('click', () => {
+                if (githubUrlInput) {
+                    githubUrlInput.select();
+                    githubUrlInput.setSelectionRange(0, 99999);
+                    navigator.clipboard.writeText(githubUrlInput.value);
+                    copyUrlBtn.textContent = 'Copied!';
+                    setTimeout(() => {
+                        copyUrlBtn.textContent = 'Copy URL';
+                    }, 2000);
+                }
+            });
+        }
+    </script>
+</body>
+
+
+
+</html>
