@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Website Rebuilding — Tech Event</title>
+    <title>ReBuild</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <link
         href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap"
         rel="stylesheet" />
@@ -50,18 +53,7 @@
             </div>
         </div>
 
-        <!-- rotating badge -->
-        <div class="hero-badge" aria-hidden="true">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                    <path id="circle" d="M 100,100 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" />
-                </defs>
-                <text fill="#00e5ff" font-size="13" font-family="DM Mono, monospace" letter-spacing="5">
-                    <textPath href="#circle">REBUILD • REDESIGN • REIMAGINE •&nbsp;</textPath>
-                </text>
-            </svg>
-            <span class="badge-icon">🌐</span>
-        </div>
+
     </section>
 
     <!-- ABOUT -->
@@ -166,14 +158,30 @@
             <div class="rule-card">
                 <h3 style="color: var(--accent2);">WHAT YOU MUST NOT DO</h3>
                 <ul class="rule-list red-rules">
-                    <li><span class="rule-icon">✗</span> No backend, server, or database of any kind</li>
-                    <li><span class="rule-icon">✗</span> No external API calls</li>
-                    <li><span class="rule-icon">✗</span> Do not remove any existing sections from the page</li>
-                    <li><span class="rule-icon">✗</span> No backend or form submission functionality</li>
+                    <li><span class="rule-icon">✗</span> Do not use backend, servers, or databases</li>
+                    <li><span class="rule-icon">✗</span> Do not use external API calls</li>
+                    <li><span class="rule-icon">✗</span> Do not remove existing sections of the page</li>
+                    <li><span class="rule-icon">✗</span> Do not add backend form submission</li>
                 </ul>
             </div>
+
             <!-- Card 2 -->
             <div class="rule-card">
+                <h3 style="color: var(--accent);">WHAT TO DO</h3>
+                <ul class="rule-list green-rules">
+                    <li><span class="rule-icon">✓</span> Follow the given instructions and file structure</li>
+                    <li><span class="rule-icon">✓</span> Keep the design clean, readable, and well aligned</li>
+                    <li><span class="rule-icon">✓</span> Ensure the page runs by simply opening the HTML file</li>
+                    <li><span class="rule-icon">✓</span> Make the page responsive for mobile devices</li>
+                    <li><span class="rule-icon">✓</span> Work on the Login/Sign Up pages and ensure Navbar items
+                        function properly</li>
+                    <li><span class="rule-icon">✓</span> Add necessary functionalities in the website and improve the
+                        overall UI/UX experience</li>
+                </ul>
+            </div>
+
+            <!-- Card 3 -->
+            <!-- <div class="rule-card">
                 <h3 style="color: var(--accent);">WHAT YOU CAN IMPROVE</h3>
                 <ul class="rule-list green-rules">
                     <li><span class="rule-icon">✓</span> Add smooth animations or hover effects</li>
@@ -183,7 +191,7 @@
                     <li><span class="rule-icon">✓</span> Add smooth scroll navigation</li>
                     <li><span class="rule-icon">✓</span> Improve the registration form appearance</li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </section>
 

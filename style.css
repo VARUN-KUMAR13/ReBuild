@@ -249,37 +249,6 @@ nav {
     text-transform: uppercase;
 }
 
-/* Floating badge */
-.hero-badge {
-    position: absolute;
-    right: 7%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: rotateBadge 18s linear infinite, fadeUp 1s 0.5s ease both;
-}
-
-.hero-badge svg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    animation: rotateBadge 18s linear infinite;
-}
-
-.hero-badge .badge-icon {
-    font-size: 3rem;
-    animation: rotateBadge 18s linear infinite reverse;
-}
-
-@keyframes rotateBadge {
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 /* ===== SECTION SHARED ===== */
 section {
@@ -488,7 +457,7 @@ section {
     color: var(--accent);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .rules-grid {
         grid-template-columns: 1fr;
     }
@@ -835,10 +804,6 @@ footer {
 
     .prizes-grid {
         grid-template-columns: 1fr;
-    }
-
-    .hero-badge {
-        display: none;
     }
 
     footer {
